@@ -1,77 +1,19 @@
-QuestChain Core staging tree v2.0
-===========================
+## Project Introduction
 
-`master:` [![Build Status](https://travis-ci.org/questchainpay/questchain.svg?branch=master)](https://travis-ci.org/questchainpay/questchain) `develop:` [![Build Status](https://travis-ci.org/questchainpay/questchain.svg?branch=develop)](https://travis-ci.org/questchainpay/questchain/branches)
+### QuestChain
 
-https://www.questchain.eu
+QuestChain is a blockchain project based on the Dash algorithm, specifically utilizing the YesPower hashing algorithm. It aims to create a decentralized digital currency system with high efficiency and rich features, tailored for in-game payments and transactions. Our goal is to provide a secure, reliable platform for users to experience fast and convenient payments within gaming ecosystems.
 
+### Key Features
 
-What is QuestChain?
--------------
+- **Algorithm**: QuestChain utilizes the Dash algorithm, incorporating the YesPower hashing algorithm for consensus and security.
+- **Halving Time**: Block rewards will halve every 40,000 blocks to ensure a gradual reduction in the inflation rate.
+- **Total Supply**: The total supply of the project is 21 billion, which will ensure there are enough tokens to support the operation and development of the system.
+- **Block Rewards**: Each block is rewarded with 2000 tokens, with a portion allocated to masternodes.
+- **Gaming Integration**: QuestChain is designed to seamlessly integrate with gaming platforms, providing a reliable payment solution for in-game purchases and transactions.
 
-QuestChain is an experimental digital currency that enables instant, private
-payments to anyone, anywhere in the world. QuestChain uses peer-to-peer technology
-to operate with no central authority: managing transactions and issuing money
-are carried out collectively by the network. QuestChain Core is the name of the open
-source software which enables the use of this currency.
+### How to Contribute
 
-For more information, as well as an immediately useable, binary version of
-the QuestChain Core software, see https://www.questchain.eu/get-questchain/.
+We welcome all developers and community members interested in blockchain technology and gaming to join our project! You can help us improve and develop by submitting issues, providing suggestions, or contributing code.
 
-
-License
--------
-
-QuestChain Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
-information or see https://opensource.org/licenses/MIT.
-
-Development Process
--------------------
-
-The `master` branch is meant to be stable. Development is normally done in separate branches.
-[Tags](https://github.com/questchainpay/questchain/tags) are created to indicate new official,
-stable release versions of QuestChain Core.
-
-The contribution workflow is described in [CONTRIBUTING.md](CONTRIBUTING.md).
-
-Testing
--------
-
-Testing and code review is the bottleneck for development; we get more pull
-requests than we can review and test on short notice. Please be patient and help out by testing
-other people's pull requests, and remember this is a security-critical project where any mistake might cost people
-lots of money.
-
-### Automated Testing
-
-Developers are strongly encouraged to write [unit tests](src/test/README.md) for new code, and to
-submit new unit tests for old code. Unit tests can be compiled and run
-(assuming they weren't disabled in configure) with: `make check`. Further details on running
-and extending unit tests can be found in [/src/test/README.md](/src/test/README.md).
-
-There are also [regression and integration tests](/test), written
-in Python, that are run automatically on the build server.
-These tests can be run (if the [test dependencies](/test) are installed) with: `test/functional/test_runner.py`
-
-The Travis CI system makes sure that every pull request is built for Windows, Linux, and OS X, and that unit/sanity tests are run automatically.
-
-### Manual Quality Assurance (QA) Testing
-
-Changes should be tested by somebody other than the developer who wrote the
-code. This is especially important for large or high-risk changes. It is useful
-to add a test plan to the pull request description if testing the changes is
-not straightforward.
-
-Translations
-------------
-
-Changes to translations as well as new translations can be submitted to
-[QuestChain Core's Transifex page](https://www.transifex.com/projects/p/questchain/).
-
-Translations are periodically pulled from Transifex and merged into the git repository. See the
-[translation process](doc/translation_process.md) for details on how this works.
-
-**Important**: We do not accept translation changes as GitHub pull requests because the next
-pull from Transifex would automatically overwrite them again.
-
-Translators should also follow the [forum](https://www.questchain.eu/forum/topic/questchain-worldwide-collaboration.88/).
+Thank you for your interest and support in the QuestChain project!
