@@ -1,0 +1,2 @@
+contrib/questchaind.bash-completion	questchaind
+contrib/questchain-cli.bash-completion    questchain-cli

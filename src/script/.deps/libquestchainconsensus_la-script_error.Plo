@@ -1,0 +1,3 @@
+script/libquestchainconsensus_la-script_error.lo: script/script_error.cpp \
+ script/script_error.h
+script/script_error.h:

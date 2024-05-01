@@ -1,0 +1,6 @@
+usr/local/bin/questchain-qt usr/bin
+share/pixmaps/questchain32.xpm usr/share/pixmaps
+share/pixmaps/questchain16.xpm usr/share/pixmaps
+share/pixmaps/questchain128.png usr/share/pixmaps
+debian/questchain-qt.desktop usr/share/applications
+debian/questchain-qt.protocol usr/share/kde4/services/

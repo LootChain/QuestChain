@@ -1,0 +1,1 @@
+qt/libquestchainqt_a-qrc_questchain.o: qt/qrc_questchain.cpp

@@ -1,0 +1,2 @@
+usr/local/bin/questchaind usr/bin
+usr/local/bin/questchain-cli usr/bin

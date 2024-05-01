@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Name=QuestChain Core
+Comment=QuestChain P2P Cryptocurrency
+Comment[de]=Verbinde mit dem QuestChain peer-to-peer Netzwerk
+Comment[fr]=QuestChain, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=QuestChain, eşten eşe kriptografik sanal para birimi
+Exec=questchain-qt %u
+Terminal=false
+Type=Application
+Icon=questchain128
+MimeType=x-scheme-handler/questchain;
+Categories=Office;Finance;
+StartupWMClass=QuestChain-qt
